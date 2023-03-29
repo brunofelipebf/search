@@ -1,15 +1,20 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 90vh;
     margin: 10px;
+    flex: 1 1 1;
 }
 
 #img-hero{
     height: auto;
-    width: 50%;
+    width: 20%;
     padding:10px;
 }
 
@@ -18,15 +23,23 @@
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
+
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 li{
     list-style: none;
+    padding: 8px;
 }
 
 #text{
     border-radius: 10px;
-    width: 60vw;
+    width: 40vw;
 }
 
 #formItems{
@@ -34,7 +47,8 @@ li{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 5px;
+    width: 100vw;
 }
 
 #btn{
@@ -43,4 +57,5 @@ li{
     justify-content: space-between;
     align-items: center;
     padding: 15px;
+    width: 40vh;
 }
