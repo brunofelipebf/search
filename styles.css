@@ -59,3 +59,18 @@ li{
     padding: 15px;
     width: 40vh;
 }
+
+#imgbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    width: 40vh;
+}
+
+@media (max-width: 600px) {
+    #img-hero{
+      width: 60%;
+      height: auto;
+    }
+}
